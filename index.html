@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjawal Personal Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(3, 3, 45);
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content:space-around;
+            align-items:center;
+            height:80px;
+            background-color: rgb(24, 24, 81);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:#ffffff;
+
+            
+        }
+        nav ul li a:hover{color: rgb(178, 131, 221);
+            font-size: 1.04rem;
+            
+        }
+        main hr{
+            border:0;
+            background-color:rgb(144, 144, 228);
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+        
+        .firstSection > div{
+            width:30%;
+        }
+        .leftSection{
+            font-size: 2.75rem;
+            margin: 70px 0;
+       
+            
+        }
+        .rightSection img{
+            width:90%;
+            margin: 50px 0;
+
+        }
+        .purple{
+            color:rgb(151, 81, 216);
+
+        }
+        #element{
+            color:rgb(151, 81, 216);
+        }
+        
+        footer{
+            background-color: #0e0e1a;
+            height: 230px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .leftSection .btn{
+            padding: 12 px;
+            background: #1e2167;
+            color: #ffffff;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+        .buttons a{
+            text-decoration: none;
+            color:#ffffff;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ujjawal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="https://codolio.com/profile/highspikes">Codolio</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="mailto:ujjwalisprakash@gmail.com">Contact</li></a>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Ujjawal</span>  
+                <div>and I am a passionate Engineer</div>
+                <span id="element"></span>
+                <dive class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/drive/u/1/folders/1bYy3L9SsPO5b0OW1Lhu0YyyaDZw8T-xh">Download Resume</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/ujjawal-prakash-951320208/">Visit Linkedin</a></button>
+                    
+                </dive>
+            </div>
+            <div class="rightSection"> 
+                <img src="https://png.pngtree.com/template/20220212/ourmid/pngtree-app-development-image_840316.jpg">
+            </div>
+        </section>
+        <hr>
+       
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ujjawal's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+            
+        </div>
+    </footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>    
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Circuit Designer.','and a Programmer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
